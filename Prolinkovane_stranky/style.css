@@ -1,0 +1,32 @@
+.menu {
+    padding-left: 0;
+}
+.menu li {
+    display: inline;
+}
+.menu a {
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: lightcyan;
+}
+.menu a.active {
+    background-color: cyan;
+}
+.hero {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-image: url('./skakani.jpg');
+    background-size: cover;
+    background-position: center;
+}
+img{
+}
+th, td {
+    border: 1px dashed black;
+}
