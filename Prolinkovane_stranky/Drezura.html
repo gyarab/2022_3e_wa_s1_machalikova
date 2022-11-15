@@ -1,53 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drezura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script> 
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <ul class="menu">
-        <li>
-            <a href="./Parkur.html">Parkur</a>
-        </li>
-        <li>
-            <a href="./Drezura.html">Drezura</a>
-        </li>
-    </ul>
-    <h1>Drazurní ježdění</h1>
-    <p>Drezura koní (též užíváno drezúra) je základní jezdecká disciplína, jejímž cílem je při prováděných cvicích dosažení maximálního souladu mezi koněm a jezdcem.</p>
-    <img src="./drezurni.jfif" alt="Drezura">
-    <h2>Význam termínu</h2>
-    <p>Termín vyhrazen pro výcvik koně směrem k zvýšené obratnosti a poslušnosti. Podle konečného cíle se rozlišuje klasická drezura jezdeckého koně, drezura koně skokana, 
-        drezura vojenského anebo policejního koně, westernová drezura, cirkusová drezura, vozatajská drezura apod. Obecně se dnes pod tímto pojmem rozumí klasická 
-        a sportovní drezura, která klidnou prací s koněm, jeho cvičením a systematickou gymnastikou, za předpokladu náležitého přihlížení k jeho psychice, vede k plnému rozvinutí
-         jeho výkonových možností. Jde v první řadě o optimalizaci a ekonomizaci průběhu pohybu. Využívá se maximálně mechanika pohybu koně. Základem klasické drezury jsou srovnání,
-         kmih, uvolněnost a takt, přičemž je kůň neustále na pomůckách a právě drezurní prací se dostává z rovnováhy přirozené přes rovnováhu kampanní do rovnováhy školní, která je předpokladem vyšších stupňů klasické drezury.</p>
-    <h2>Drezurní kategorie dle obtížnosti:</h2>
-    <ul>
-        <li>Z (základní)</li>
-        <li>ST (středně těžká)</li>
-        <li>T (těžká)</li>
-        <li>TT (velmi těžká)</li>
-        <li>S (střední)</li>
-        <li>L (lehká)</li>
-    </ul>
-    <h2>Tabulka penalizace</h2>
-    <table>
-        <tr>
-            <td>1. omyl</td>
-            <td>2 body</td>
-        </tr>
-        <tr>
-            <td>2. omyl</td>
-            <td>4 body</td>
-        </tr>
-        <tr>
-            <td>3. omyl</td>
-            <td>vyloučen</td>
-        </tr>
-    </table>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Parkur.html">Parkur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Drezura.html">Drezura</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid herod debug">
+        <div class="overcast">
+            <h1>Parkurové skákání</h1>
+        </div>
+    </div>
+
+    <div class="container debug">
+        <h1>Drezurní ježdění</h1>
+        <p>Drezura koní (též užíváno drezúra) je základní jezdecká disciplína, jejímž cílem je při prováděných cvicích dosažení maximálního souladu mezi koněm a jezdcem.</p>
+        <h2>Význam termínu</h2>
+         <p>Termín vyhrazen pro výcvik koně směrem k zvýšené obratnosti a poslušnosti. Podle konečného cíle se rozlišuje
+            klasická drezura jezdeckého koně, drezura koně skokana,
+            drezura vojenského anebo policejního koně, westernová drezura, cirkusová drezura, vozatajská drezura apod.
+            Obecně se dnes pod tímto pojmem rozumí klasická
+            a sportovní drezura, která klidnou prací s koněm, jeho cvičením a systematickou gymnastikou, za předpokladu
+            náležitého přihlížení k jeho psychice, vede k plnému rozvinutí
+            jeho výkonových možností. Jde v první řadě o optimalizaci a ekonomizaci průběhu pohybu. Využívá se maximálně
+            mechanika pohybu koně. Základem klasické drezury jsou srovnání,
+            kmih, uvolněnost a takt, přičemž je kůň neustále na pomůckách a právě drezurní prací se dostává z rovnováhy
+            přirozené přes rovnováhu kampanní do rovnováhy školní, která je předpokladem vyšších stupňů klasické drezury.
+        </p>
+        <h2>Drezurní kategorie dle obtížnosti:</h2>
+        <ul>
+            <li>Z (základní)</li>
+            <li>ST (středně těžká)</li>
+            <li>T (těžká)</li>
+            <li>TT (velmi těžká)</li>
+            <li>S (střední)</li>
+            <li>L (lehká)</li>
+        </ul>
+       <h2>Tabulka penalizace</h2>
+       <table class="table">
+            <tr>
+                <td>1. omyl</td>
+                <td>2 body</td>
+            </tr>
+            <tr>
+                <td>2. omyl</td>
+                <td>4 body</td>
+            </tr>
+            <tr>
+                <td>3. omyl</td>
+                <td>vyloučen</td>
+            </tr>
+        </table>
+    </div>
 </body>
+
 </html>
