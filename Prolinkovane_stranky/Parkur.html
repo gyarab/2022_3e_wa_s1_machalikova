@@ -44,15 +44,36 @@
         
         <h2>Profil</h2>
         <form action="">
-            Jméno: <input type="text" name="jmeno" value="sem neco"><br>
+            <div class="form-floating mb-3">
+                <input id="jmenoid" class="form-control" type="text" name="jmeno" value="" placeholder="">
+                <label for="jmenoid">Jméno</label>
+            </div> <br>
+            
             Rok narození: <input type="number" name="birth_year"><br>
-            Terms: <input type="checkbox" name="terms"><br>
+
+            Terms: <input id="termsid" type="checkbox" name="terms">
+            <label for="termsid">souhlasím s podmínkami</label>
+            <br>
+
+            Nástroj: <br> 
+            <input id="tool1" type="radio" name="tool" value="L"> 
+            <label for="tool1">Lopata</label>
+            <br> 
+            <input id="tool2" type="radio" name="tool" value="H"> 
+            <label for="tool2">Hrábě</label>
+            <br>
+            <input id="tool3" type="radio" name="tool" value="M"> 
+            <label for="tool3">Motyčka</label>
+            <br>
+
+
             Obrazek: <input type="file" name="avatar"><br>
             <select name="user_type">
                 <option value="m">Male</option><br>
                 <option value="f">Female</option><br>
                 <option value="n">Non-binary</option><br>
-            </select>
+            </select> <br>
+            <textarea name="remark" id="" cols="30" rows="10">pozn</textarea> <br>
             <input type="submit" value="SEND">
         </form>
 
